@@ -1,0 +1,32 @@
+{
+    "name": "ang",
+    "version": "0.0.0",
+    "license": "MIT",
+    "angular-cli": {},
+    "scripts": {
+        "start": "ng build"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/common": "2.2.3",
+        "@angular/compiler": "2.2.3",
+        "@angular/core": "2.2.3",
+        "@angular/forms": "2.2.3",
+        "@angular/http": "2.2.3",
+        "@angular/platform-browser": "2.2.3",
+        "@angular/platform-browser-dynamic": "2.2.3",
+        "@angular/router": "3.2.3",
+        "core-js": "^2.4.1",
+        "rxjs": "5.0.0-beta.12",
+        "ts-helpers": "^1.1.2",
+        "zone.js": "^0.7.2"
+    },
+    "devDependencies": {
+        "@angular/compiler-cli": "2.2.3",
+        "@types/node": "^6.0.42",
+        "angular-cli": "1.0.0-beta.21",
+        "ts-node": "1.2.1",
+        "typescript": "~2.0.3"
+    },
+    "-vs-binding": { "BeforeBuild": [ "start" ] }
+}
