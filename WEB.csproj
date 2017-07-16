@@ -22,6 +22,11 @@
  
 
   <ItemGroup>
+    <Content Remove="package-lock.json" />
+  </ItemGroup>
+ 
+
+  <ItemGroup>
     <None Remove="Rad.Sige.WebLoja.csproj.vspscc" />
   </ItemGroup>
 
