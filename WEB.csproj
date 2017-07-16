@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+ 
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+ 
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <PreBuildEvent>ng build</PreBuildEvent>
+  </PropertyGroup>
+ 
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugLoja|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE;DEBUGLOJA;NETCOREAPP1_1</DefineConstants>
+  </PropertyGroup>
+ 
+
+  <ItemGroup>
+    <None Remove="Rad.Sige.WebLoja.csproj.vspscc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.2" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
