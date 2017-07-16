@@ -13,18 +13,18 @@ npm install -g angular-cli
 
 ## Start
 
-Start by typing
+Start by 
 
+**BEFORE OPEN IN Visual Studio 2017**:
 `npm install`
 
-at the level of the "package.json" file
+At the level of the "package.json" file
 
 ### Run Option 1
 
-You can just press "play" inside Visual Studio to get started.
-
-If you change the *.ts-files you need to run again
+Just press "play" inside Visual Studio: http://localhost:5900/
+Break point in debug works!
 
 ### Run Option 2
 
-`ng serve` will run angular-cli serve you, starting only the NG Live Development Server http://localhost:4200
+`ng serve` will run angular-cli serve you: http://localhost:4200
